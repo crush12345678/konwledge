@@ -19,9 +19,15 @@
   
   
   
-  * Linux操作系统
-    * [vim 命令](./Liunx%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/vim%E5%91%BD%E4%BB%A4.md)
-  
+  * 操作系统
+    * Linux
+      * [vim 命令](./%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Liunx%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/vim%E5%91%BD%E4%BB%A4.md)
+      * [Ubuntu 知识点](./%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Liunx%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Ubuntu%E7%9F%A5%E8%AF%86%E7%82%B9.md)
+      * [Ubuntu 命令](./%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Liunx%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Ubuntu%E5%91%BD%E4%BB%A4.md)
+    * Windows
+      * [ Windows知识点](./%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Windows%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/Windows%E7%9F%A5%E8%AF%86%E7%82%B9.md)
+      
+
 
   * python
     * [python](./python/python.md)
