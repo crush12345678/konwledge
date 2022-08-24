@@ -1,4 +1,4 @@
-##  Linux 终端命令的格式
+##  1.Linux 终端命令的格式
 
 command  [-options]  [parameter]
 
@@ -9,9 +9,7 @@ command  [-options]  [parameter]
 
 > （例如：rm -r aaa）删除文件夹    其中-r指删除文件夹
 
----
-
-## 查阅命令帮助信息（知道）
+## 2.查阅命令帮助信息（知道）
 
 1. command ——help
 2. man command (详细)     Q退出
@@ -32,7 +30,7 @@ command  [-options]  [parameter]
 > * 如果输出没有歧义，系统会自动补全
 > * 如果还存在其他``文件/目录/命令``再按一下Tab键，系统会提示可能存在的命令。
 
-# ls使用说明
+# 3.ls使用说明
 
 > * 以``.``开头的文件为隐藏文件，需要用``-a``参数才显示
 > * ``.``代表当前目录 cd .
@@ -60,7 +58,63 @@ command  [-options]  [parameter]
 | [abc]  | 匹配a、b、c、中任意一个      |
 | [a-f]  | 匹配a到f范围内的任意一个字符 |
 
-# 切换目录
+### ls详解
+
+| -rw------- | 1      | zcz    | zcz    | 163              | Jul 20 18.33 | .bash_history |
+| ---------- | ------ | ------ | ------ | ---------------- | ------------ | ------------- |
+|            | 链接数 | 用户名 | 用户组 | 文件大小（字节） | 日期         | 文件名        |
+
+* 第一个字符：表示文件类型
+  * \- 表示文件
+  * d 表示文件
+  * l 表示软连接(link)
+    * r : read ，可读权限，数字表示：4
+    * w：write ，可写权限，数字表示：2
+    * x：execute，可执行权限，数字表示：1
+
+* 文件
+  * r：可以查询里面的内容
+  * w：可以修改里面的内容
+  * x：可以执行此文件
+* 目录
+  * r：可以查询目录内的文件和子目录
+  * w：可以创建或删除目录里面的数据
+  * x：可以进入此目录
+
+1. 第2~3个字符：user  表示文件或目录的拥有者的权限
+2. 第3~4个字符：group  表示此文件或目录的拥有者所在组的组成员的权限
+3. 第8~9个字符：other  表示除了拥有者所在组之外的其他人权限
+
+### 修改权限
+
+1. 第一种改法
+
+| 输入                            | 输出                                           |
+| :------------------------------ | ---------------------------------------------- |
+| [root@www ~]# ls -al .bashrc    | -rw-r--r-- 1 root root 395 Jul 4 11:45 .bashrc |
+| [root@www ~]# chmod 777 .bashrc |                                                |
+| [root@www ~]# ls -al .bashrc    | -rwxrwxrwx 1 root root 395 Jul 4 11:45 .bashrc |
+
+2. 第二种改法
+
+   a 是 all     u 是 user     g 是group  o 是other 
+
+| 输入                                    | 输出                                           |
+| --------------------------------------- | ---------------------------------------------- |
+| [root@www ~]# chmod u=rwx,go=rx .bashrc |                                                |
+| [root@www ~]# ls -al .bashrc            | -rwxr-xr-x 1 root root 395 Jul 4 11:45 .bashrc |
+| [root@www ~]# chmod a+w .bashrc         |                                                |
+| [root@www ~]# ls -al .bashrc            | -rwxrwxrwx 1 root root 395 Jul 4 11:45 .bashrc |
+| [root@www ~]# chmod a-x .bashrc         |                                                |
+| [root@www ~]# ls -al .bashrc            | -rw-rw-rw- 1 root root 395 Jul 4 11:45 .bashrc |
+
+
+
+
+
+
+
+# 4.切换目录
 
 cd - :可以在最近两次工作目录之间来回切换
 
@@ -83,7 +137,7 @@ cd :/home/own_home/Desktop/ —— 绝对路径
 
 ---
 
-# rm命令
+# 5.rm命令
 
 ``rm``命令要小心，因为文件删除后不能恢复
 
@@ -96,7 +150,7 @@ cd :/home/own_home/Desktop/ —— 绝对路径
 
 ---
 
-### tree
+# 6.tree
 
 tree [目录名]
 
@@ -110,7 +164,7 @@ tree [目录名]
 
 tree ~ :看家目录**tree**可以使用绝对路径
 
-# 拷贝和移动文件
+# 7.拷贝和移动文件
 
 ### 1.cp(拷贝)
 
@@ -149,7 +203,7 @@ tree ~ :看家目录**tree**可以使用绝对路径
 
 ---
 
-# 查看文件内容
+# 8.查看文件内容
 
 > * cat会一次显示所有内容。适合查看内容较少的文本文件
 >
