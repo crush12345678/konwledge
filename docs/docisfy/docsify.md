@@ -25,6 +25,7 @@ docsify init ./docs
 ---
 
 ## [docsify详细说明](https://juejin.cn/post/7054199025288871944)  
+   [docsify官网](https://docsify.js.org/#/)
 
 
 
