@@ -262,3 +262,12 @@ echo会在终端中显示参数指定义，通常会和重定向联合使用
 more 如 ls -lha ~|more
 
 grep   如ls -lha ~|grep vi
+
+---
+
+# 10.执行python脚本
+
+1. 进入根目录
+2. 进入mnt文件
+3. 选项windows磁盘
+4. 找到文件位置，输入python3  ___.py执行操作
