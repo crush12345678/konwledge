@@ -37,3 +37,10 @@
   * 不理解知识点
     * [bit_and_Byte](./%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9F%A5%E8%AF%86%E7%82%B9/bit_and_byte.md)
     * [动态存储和静态存储](./%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%8A%A8%E6%80%81%E5%AD%98%E5%82%A8%E5%92%8C%E9%9D%99%E6%80%81%E5%AD%98%E5%82%A8.md)
+  
+  * C语言
+    * [指针](./C%E8%AF%AD%E8%A8%80/%E6%8C%87%E9%92%88.md)
+    * [const的用法详解](./C%E8%AF%AD%E8%A8%80/const%E7%9A%84%E7%94%A8%E6%B3%95%E8%AF%A6%E8%A7%A3.md)
+    * [include-stdlib](./C%E8%AF%AD%E8%A8%80/include_stdlib.h%E5%87%BD%E6%95%B0.md)
+    * [in_void_double的区别](./C%E8%AF%AD%E8%A8%80/int_void-double%E7%9A%84%E5%8C%BA%E5%88%AB.md)
+    * [include_string.h](./C%E8%AF%AD%E8%A8%80/string.h.md)
