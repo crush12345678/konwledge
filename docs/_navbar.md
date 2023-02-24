@@ -11,6 +11,7 @@
 * 学习链接
   * [柯基资源网](https://www.fjha.net/)
   * [百度翻译](https://cn.bing.com/search?q=%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91&qs=n&form=QBRE&sp=-1&pq=%E7%99%BE%E5%BA%A6%E7%BF%BB%E8%AF%91&sc=6-4&sk=&cvid=85EB8FE389E24CD1BE173C415D7468A6&ghsh=0&ghacc=0&ghpl=)
+  * [北大学霸自学指南](https://github.com/PKUFlyingPig/cs-self-learning)
 
 * 娱乐链接
   * [微博](https://weibo.com/blog)
@@ -18,3 +19,8 @@
   * [优酷](https://youku.com/)
   * [爱奇艺](https://www.iqiyi.com/)
   * [哔哩哔哩](https://www.bilibili.com/)
+  
+* 素材链接
+  * [虎课网](https://huke88.com/)
+  * [淘金阁](http://www.51taojinge.com/)
+  * [梅花网](https://www.meihua.info/shots!0!0!51!0!0)

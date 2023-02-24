@@ -32,6 +32,8 @@
 
   * python
     * [python](./python/python.md)
+    * [lambda函数](./python/lambda%E5%87%BD%E6%95%B0.md)
+    * [字典](./python/%E5%AD%97%E5%85%B8.md)
   
   * 接口测试
     * [接口测试-第一天](./%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95-%E7%AC%AC%E4%B8%80%E5%A4%A9.md)
