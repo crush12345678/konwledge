@@ -8,3 +8,7 @@
 
 ![区别](./%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202022-08-07%20182812.png)
 
+## 3.if\_\_name\_\_=="\_\_main\_\_"
+
+> 深入了解：[if\_\_name\_\_=="\_\_main\_\_"](https://www.bilibili.com/video/BV1rA41137mj/?spm_id_from=333.337.search-card.all.click&vd_source=2a411562cb1015d46811fc2c5f78baef )
+
