@@ -31,16 +31,16 @@
 
 
   * python
-    * [python](./python/python.md)
-    * [lambda函数](./python/lambda%E5%87%BD%E6%95%B0.md)
-    * [字典](./python/%E5%AD%97%E5%85%B8.md)
-  
+    * [基础知识](./python/Python_基础小知识.md)
+    * [拓展](./python/Python_拓展.md)
+
   * 接口测试
     * [接口测试-第一天](./%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95/%E6%8E%A5%E5%8F%A3%E6%B5%8B%E8%AF%95-%E7%AC%AC%E4%B8%80%E5%A4%A9.md)
-  * 不理解知识点
-    * [bit_and_Byte](./%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9F%A5%E8%AF%86%E7%82%B9/bit_and_byte.md)
-    * [动态存储和静态存储](./%E4%B8%8D%E7%90%86%E8%A7%A3%E7%9F%A5%E8%AF%86%E7%82%B9/%E5%8A%A8%E6%80%81%E5%AD%98%E5%82%A8%E5%92%8C%E9%9D%99%E6%80%81%E5%AD%98%E5%82%A8.md)
-  
+
+  * 计算机_网络_程序须知
+    * [网络知识](./计算机_网络_程序须知/网络知识.md)
+    * [XML-HTML-CSS](./计算机_网络_程序须知/XML_HTML_CSS.md)
+
   * C语言
     * [指针](./C%E8%AF%AD%E8%A8%80/%E6%8C%87%E9%92%88.md)
     * [const的用法详解](./C%E8%AF%AD%E8%A8%80/const%E7%9A%84%E7%94%A8%E6%B3%95%E8%AF%A6%E8%A7%A3.md)
@@ -51,3 +51,13 @@
     * [cin_cout输入、输出流](./C%E8%AF%AD%E8%A8%80/cin_cout%E8%BE%93%E5%85%A5%E3%80%81%E8%BE%93%E5%87%BA%E6%B5%81.md)
     * [C语言_类型](./C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80_%E7%B1%BB%E5%9E%8B.md)
     * [C语言%s格式符的使用](./C%E8%AF%AD%E8%A8%80/C%E8%AF%AD%E8%A8%80%25s%E6%A0%BC%E5%BC%8F%E7%AC%A6%E7%9A%84%E4%BD%BF%E7%94%A8.md)
+  
+  * 网络爬虫
+    * [HTML常用标签和属性](./网络爬虫/HTML常用标签和属性.md)
+    * [Xpath](./网络爬虫/Xpath.md)
+    * [Xpath的实战](./网络爬虫/Xpath的实战.md)
+    * [Requests](./网络爬虫/尚硅谷_Requests.md)
+    * [scrapy](./网络爬虫/尚硅谷_scrapy.md)
+    * [selenium](./网络爬虫/尚硅谷_selenium.md)
+    * [Urllib](./网络爬虫/尚硅谷_Urllib.md)
+  docsify serve ./docs  
