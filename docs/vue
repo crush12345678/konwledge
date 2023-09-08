@@ -3,3 +3,40 @@
 老师说：http://mooc1.chaoxing.com/course/218933325.html
 老师说：http://mooc1.chaoxing.com/course/212195014.html
 open in browser
+
+<!DOCTYPE html>
+<html lang="zn-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--标题标签h1 h3  段落标签p 换行标签br-->
+    <h1>登黄鹤楼</h1>
+    <h3>作者:王玉玉</h3>
+    <p>昔人已乘黄鹤去，<br/>此地空余黄鹤楼。</p>
+    <p> 黄鹤一去不复返，白云千载空悠悠。</p>
+    <p> 晴川历历汉阳树，芳草萋萋鹦鹉洲。</p>
+    <p> 日暮乡关何处是，烟波江上使人愁。</p>
+    <!-- 图片标签 -->
+    <img src="https://img.zcool.cn/community/015b215e8a9c52a80120a89512e84c.jpg@3000w_1l_0o_100sh.jpg" width=400px height=400px alt="图片走丢了"/>
+    <!-- 列表标签ul li 快捷键ul>li*3 -->
+    <ul>
+        <li>衣服</li>
+        <li>鞋子</li>
+        <li>包包</li>
+    </ul>
+    <hr>
+<!-- 超链接标签 a -->
+<a href="https://www.runoob.com/html/html-tutorial.html"style="text-decoration-line:none;"target="_blank">
+    HTMl菜鸟教程
+</a>
+<!-- ul li a img嵌套使用 -->
+<ul>
+    <li><a href="https://www.runoob.com/html/html-tutorial.html"target="_blank"><img src="https://www.runoob.com/wp-content/uploads/2013/06/image-icon.png"></a></li>
+    <li><a href="https://www.shengda.edu.cn/"target="_blank"><img src="https://www.shengda.edu.cn/images/logo20210607.png"></a></li>
+    <li><a href="https://github.com/crush12345678/konwledge_base/blob/docsify/docs/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/HTML%E5%B8%B8%E7%94%A8%E6%A0%87%E7%AD%BE%E5%92%8C%E5%B1%9E%E6%80%A7.md"target="_blank"><img src="https://avatars.githubusercontent.com/u/108908243?v=4"></a></li>
+</ul>
+</body>
+</html>
